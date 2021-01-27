@@ -1,9 +1,38 @@
 # spamchk 🔎🧾
 > A tiny Go library which checks text for spam 
 
-# Usage 🖥
-```go
+The lib is a bridge for <a href="https://plino.herokuapp.com/">Plino</a> spam filtering System
 
+# Usage 🖥
+### verify string
+```go
+package main
+
+import (
+	"fmt"
+
+	spam "github.com/irevenko/spamchk"
+)
+
+func main() {
+	checkString := spam.IsStringSpam("Congrats you've won the Tesla car!")
+	fmt.Println(checkString)
+}
+```
+### verify file text
+```go
+package main
+
+import (
+	"fmt"
+
+	spam "github.com/irevenko/spamchk"
+)
+
+func main() {
+	checkFile := spam.IsTextFileSpam("test.txt")
+	fmt.Println(checkFile)
+}
 ```
 
 # Contributing 🤝

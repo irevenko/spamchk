@@ -76,8 +76,6 @@ func IsTextFileSpam(fileName string) bool {
 	}
 	fileString := string(content)
 
-	fmt.Println(fileString)
-
 	if strings.Trim(fileString, " ") == "" {
 		fmt.Println("The file can't be blank!")
 		return false
