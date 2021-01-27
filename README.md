@@ -1,6 +1,7 @@
 # spamchk 🔎🧾
 > A tiny Go library which checks text for spam 
 
+<img src="logo.png" width="200"> <br>
 The lib is a bridge for <a href="https://plino.herokuapp.com/">Plino</a> spam filtering System
 
 # Usage 🖥
