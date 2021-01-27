@@ -2,7 +2,8 @@
 > A tiny Go library which checks text for spam 
 
 <img src="logo.png" width="200"> <br>
-The lib is a bridge for <a href="https://plino.herokuapp.com/">Plino</a> spam filtering System
+The lib is a bridge for <a href="https://plino.herokuapp.com/">Plino</a> spam filtering System <br>
+It is suitable for email or SMS verification but feel free to try and find out what it works good with
 
 # Usage 🖥
 ### verify string
