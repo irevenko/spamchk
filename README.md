@@ -1,4 +1,7 @@
 # spamchk 🔎🧾
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/irevenko/spamchk.svg)](https://pkg.go.dev/github.com/irevenko/spamchk)
+
 > A tiny Go library which checks text for spam 
 
 <img src="logo.png" width="240"> <br>
